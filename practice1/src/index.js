@@ -13,9 +13,13 @@ const CardCars = (props) => {
 };
 
 const App = () => {
-    <CardCars name = {'Mazda CX9'} description = {'Good Card'}/>;
-    <CardCars name = {'Subaru'} description = {'The best car in the year'}/>;
-    <CardCars name = {'Sedan'} description = {'Its not that good'}/>;
+  return (
+    <div>
+      <CardCars name = {'Mazda CX9'} description = {'Good Card'} />
+      <CardCars name = {'Subaru'} description = {'The best car in the year'} />
+      <CardCars name = {'Sedan'} description = {'Its not that good'} />
+  </div>
+  ); 
 };
 
 
